@@ -1,4 +1,6 @@
+import React, { useState } from 'react'
 import 'react-bootstrap';
+import Oferta from './frmOferta';
 
 function Header(){
     function padding(top,right,bottom,left){
@@ -25,7 +27,7 @@ function Header(){
     <div className="row" id="banner">
         <div className="col" id='bannerImage'>
             <span id='bannerText'>Strony internetowe na zamówienie</span>
-            <button id="btnCheck"><a href="#Oferta">Sprawdź</a></button>
+                <a href="#Oferta"><button id="btnCheck">Sprawdź</button></a>
         </div>
     </div>
 </div>

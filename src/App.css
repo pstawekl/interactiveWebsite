@@ -113,11 +113,11 @@
   border: 1px;
 border-color: purple;
   padding-bottom: 5px;
+  color:whitesmoke;
 }
 
 #btnCheck a{
-  text-decoration: none;
-  color:whitesmoke;
+  text-decoration:none;
 }
 
 #btnCheck:hover{
